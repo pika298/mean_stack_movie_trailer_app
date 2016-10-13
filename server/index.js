@@ -21,7 +21,7 @@ app.use(function(req, res, next) {
 });
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost/movietrailerapp');
+mongoose.connect('mongodb://localhost/meanapp');
 mongoose.connection.once('open', function() {
 
   // Load the models.
